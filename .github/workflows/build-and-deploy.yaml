@@ -22,7 +22,13 @@ jobs:
       - run: npm install -g yarn
       - run: yarn install
       - run: yarn build
-      - name: setup git config
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          repository: adrian-patterson/adrian-patterson.github.io
+          ref: build
+          token: ${{ secrets.PAT }}
+      - name: Setup Git Config
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
