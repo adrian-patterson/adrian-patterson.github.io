@@ -22,7 +22,6 @@ jobs:
       - run: npm install -g yarn
       - run: yarn install
       - run: yarn build
-      - name: Deploy
       - name: setup git config
         run: |
           git config user.name "GitHub Actions Bot"
