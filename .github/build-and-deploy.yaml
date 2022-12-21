@@ -1,0 +1,36 @@
+name: Build and Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          repository: adrian-patterson/adrian-patterson.github.io
+          ref: main
+          token: ${{ secrets.PAT }}
+      - name: Set-up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install -g yarn
+      - run: yarn install
+      - run: yarn build
+      - name: Deploy
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: Commit build files
+        run: |
+          cd build
+          git add .
+          git commit -m "Automated build commit"
+      - name: Push to build branch
+        run: git push origin build
