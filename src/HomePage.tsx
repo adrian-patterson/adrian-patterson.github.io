@@ -1,4 +1,4 @@
-import { Button, grommet, Grommet, Header, HeaderExtendedProps, Page, PageContent, PageHeader, Spinner, Text } from 'grommet';
+import { Button, Clock, grommet, Grommet, Header, HeaderExtendedProps, Page, PageContent, PageHeader, Spinner, Text } from 'grommet';
 import { Moon, Sun } from 'grommet-icons';
 import { deepMerge } from 'grommet/utils';
 import { useState } from 'react';
@@ -46,6 +46,7 @@ function HomePage() {
           <Text margin="20px" size="large">🚧 Under construction... 🚧</Text>
           <Spinner color="header" size='large' />
           <Text margin="10px" size="xsmall">(Nothing is actually loading)</Text>
+          <Clock type="digital" />
         </PageContent>
       </Page>
     </Grommet>
