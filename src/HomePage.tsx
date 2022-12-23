@@ -42,9 +42,10 @@ function HomePage() {
           />
         </AppBar>
         <PageContent align='center'>
-          <PageHeader title="Welcome to my home page!" />
-          <Text size="large">🚧 Under construction... 🚧</Text>
-          <Spinner color="header" margin="30px" size='large' />
+          <PageHeader title="Welcome to my home page! 👋" />
+          <Text margin="20px" size="large">🚧 Under construction... 🚧</Text>
+          <Spinner color="header" size='large' />
+          <Text margin="10px" size="xsmall">(Nothing is actually loading)</Text>
         </PageContent>
       </Page>
     </Grommet>
