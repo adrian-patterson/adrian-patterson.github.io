@@ -1,4 +1,4 @@
-import { Button, grommet, Grommet, Header, HeaderExtendedProps, Page, PageContent, PageHeader, Text } from 'grommet';
+import { Button, grommet, Grommet, Header, HeaderExtendedProps, Page, PageContent, PageHeader, Spinner, Text } from 'grommet';
 import { Moon, Sun } from 'grommet-icons';
 import { deepMerge } from 'grommet/utils';
 import { useState } from 'react';
@@ -6,7 +6,7 @@ import { useState } from 'react';
 const theme = deepMerge(grommet, {
   global: {
     colors: {
-      brand: "neutral-4",
+      header: "neutral-4",
       pageBackground: {
         dark: "dark-1",
         light: "light-1"
@@ -17,16 +17,13 @@ const theme = deepMerge(grommet, {
       size: "14px",
       height: "20px",
     },
-    dark: "#9B59B6",
-    light: "#C39BD3"
   },
 });
 
 const AppBar = (props: HeaderExtendedProps) => (
   <Header
-    background="brand"
+    background="header"
     pad={{ left: "medium", right: "small", vertical: "small" }}
-    elevation="medium"
     {...props}
   />
 );
@@ -47,6 +44,7 @@ function HomePage() {
         <PageContent align='center'>
           <PageHeader title="Welcome to my home page!" />
           <Text size="large">🚧 Under construction... 🚧</Text>
+          <Spinner color="header" margin="30px" size='large' />
         </PageContent>
       </Page>
     </Grommet>
