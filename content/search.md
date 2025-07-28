@@ -1,7 +1,7 @@
 ---
 title: "Search"
 layout: "search"
-description: "Description for Search"
-summary: "search"
-placeholder: "placeholder text in search input box"
+description: "\"If I cease searching, then, woe is me, I am lost.\" - Vincent van Gogh"
+summary: "Search"
+placeholder: "Search posts"
 ---
