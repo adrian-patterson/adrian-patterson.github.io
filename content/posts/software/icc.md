@@ -9,7 +9,7 @@ categories: ["Software"]
 ShowToc: true
 TocOpen: true
 cover:
-  image: "/images/covers/icc.jpg"
+  image: "/images/covers/icc.png"
   alt: "IoT Control Center interface on Raspberry Pi"
   caption: "ICC - Home-made IoT control center"
   relative: false
