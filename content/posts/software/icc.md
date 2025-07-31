@@ -8,6 +8,11 @@ tags: ["Personal Projects", "IoT", "Python", "Raspberry Pi"]
 categories: ["Software"]
 ShowToc: true
 TocOpen: true
+cover:
+  image: "/images/covers/icc.jpg"
+  alt: "IoT Control Center interface on Raspberry Pi"
+  caption: "ICC - Home-made IoT control center"
+  relative: false
 ---
 
 # Small Beginnings

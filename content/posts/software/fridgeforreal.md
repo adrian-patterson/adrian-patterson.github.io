@@ -8,4 +8,9 @@ tags: ["Personal Projects", "AI", "AWS", "Python", "React Native"]
 categories: ["Software"]
 ShowToc: true
 TocOpen: true
+cover:
+  image: "/images/covers/fridgeforreal.jpg"
+  alt: "FridgeForReal mobile application interface"
+  caption: "FridgeForReal - Track food inventory and prevent waste"
+  relative: false
 ---

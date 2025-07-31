@@ -53,6 +53,10 @@ params:
   ShowPageNums: true
   ShowToc: true
 
+  cover:
+    linkFullImages: true
+    responsiveImages: true
+
   socialIcons:
     - name: "Github"
       url: "https://github.com/adrian-patterson"

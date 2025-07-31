@@ -8,4 +8,9 @@ tags: ["Personal Projects", "IoT", "Python", "Rust", "Raspberry Pi"]
 categories: ["Software"]
 ShowToc: true
 TocOpen: true
+cover:
+  image: "/images/covers/homehub.jpg"
+  alt: "HomeHub IoT control interface"
+  caption: "HomeHub - Smart home control center"
+  relative: false
 ---
