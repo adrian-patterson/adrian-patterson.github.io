@@ -16,15 +16,22 @@ cover:
 ---
 
 # Small Beginnings
-The story of the IoT Control Center starts with a breadboard, a blue LED, and a Rasbperry Pi. It was the Spring of 2021 and my first Software internship was starting in May. How exciting!
 
-The internship was for a full-stack position, working with the .NET framework and the C# programming language. Knowing nothing about C# or .NET, I decided to start a project to learn. I had a simple goal; control an LED from a React frontend, using .NET as a backend and a Raspberry Pi, connected to an LED on a breadboard.
+The story of the IoT Control Center starts with a breadboard, a blue LED, a Rasbperry Pi, and the stress of a looming internship on the horizon. 
 
-[image diagram here of goal]
+![Raspberry Pi Connected to LED](/posts/raspi_led.png)
 
-[image of LED + breadboard, image of react app]
+With my first internship approaching, I was nervous and excited to start working on real-world software engineering challenges. 
 
-After feverish hours and hours of tinkering and iterating to get something working, I finally got it! A simple on/off switch which was able to talk to the raspberry pi to turn on and off an LED. With this simple proof of concept, I thought to myself, the sky is the limit! With this minimally working setup, I could scale this to tons of devices and the automation I could achieve for my home IoT devices would be unparalleled! 
+**The problem**: I had no idea what the words C#, .NET, microservices, etc., all meant. My solution? To start tinkering with these technologies along with my Raspberry Pi to learn how these technologies worked.
+
+The goal was simple: Have a user interface with a button to turn an LED on and off. After days (possibly months -- I don't remember), I finally got it. A working proof-of-concept! From my phone, I was able to click a button and turn on an LED. 
+
+At the time, this was absolutely thrilling for me. I turned a bunch of text on a screen into something that can physically interact with the world! There were so many possibilities from here...
+
+Armed with this working demo, I embarked on a journey to scale this simple LED light to support multiple devices, like light bulbs, outlets, etc. I envisioned a home-automation application to the likes of Jarvis. Complete control over my house's devices, custom-built the way I want it.
+
+![Jarvis, clip that](/posts/jarvis.png#center)
 
 Oblivious to the mountain of work ahead for what I had in mind, I embarked on this journey to build what I called the IoT Control Center, or ICC for short.
 
@@ -32,5 +39,22 @@ Oblivious to the mountain of work ahead for what I had in mind, I embarked on th
 
 I actually didn't further pursue the project until after my internship. What I initially built was simple.
 
+## First Iteration
+
 [adrian-patterson/control-center | GitHub](https://github.com/adrian-patterson/control-center)
 
+## Second Iteration
+
+### Microservice Architecture
+
+### Kubernetes
+
+# What did I Learn?
+
+# Project Abandonment and Final State
+
+Have you ever heard of Home Assistant? Well, I didn't.
+
+[Home Assistant](https://github.com/home-assistant/core)
+
+Once I found it, all my hard work melted away into a river of lost time. But, not all was lost. I learned so many valuable lessons and 
