@@ -8,6 +8,7 @@ tags: ["Personal Projects", "AI", "AWS", "Python", "React Native"]
 categories: ["Software"]
 ShowToc: true
 TocOpen: true
+draft: true
 cover:
   image: "/images/covers/fridgeforreal.jpg"
   alt: "FridgeForReal mobile application interface"

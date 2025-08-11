@@ -8,6 +8,7 @@ tags: ["Personal Projects", "Raspberry Pi", "IoT"]
 categories: ["Software"]
 ShowToc: true
 TocOpen: true
+draft: true
 cover:
   image: "/images/covers/lovebox.png"
   alt: "Lovebox device and interface"
